@@ -1,4 +1,4 @@
-# Rain Alert
+# Stock-Trading-Alert
 
 ## **Overview**
 
