@@ -37,7 +37,7 @@ TWILIO_AUTH_TOKEN=your_twilio_auth_token
 VIRTUAL_TWILIO_NUMBER=your_twilio_virtual_number
 VERIFIED_PHONE_NUMBER=your_verified_phone_number
 STOCK_NAME=the_stock_symbol_to_track (e.g., TSLA)
-COMPANY_NAME=company_name_to_fetch_news_for (e.g., Tesla Inc)
+COMPANY_NAME=company_name_to_fetch_news_for 
 ```
 
 * **STOCK\_API\_KEY**: Your API key from [Alpha Vantage](https://www.alphavantage.co/support/#api-key).
