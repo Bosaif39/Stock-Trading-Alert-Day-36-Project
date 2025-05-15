@@ -3,7 +3,9 @@
 
 ## **Overview**
 
-This is the Day 36 project from the **"100 Days of Code: The Complete Python Pro Bootcamp"**. This project aims to monitor the stock price of a company and send SMS alerts when significant changes (e.g., a 5% increase or decrease) are detected. The script uses the Alpha Vantage API to fetch stock data, the News API to retrieve related news articles, and Twilio to send SMS notifications.
+This is the Day 36 project from the **"100 Days of Code: The Complete Python Pro Bootcamp"**.
+
+This project aims to monitor the stock price of a company and send SMS alerts when significant changes (e.g., a 5% increase or decrease) are detected. The script uses the Alpha Vantage API to fetch stock data, the News API to retrieve related news articles, and Twilio to send SMS notifications.
 
 ## **How It Works**
 
