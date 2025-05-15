@@ -46,8 +46,8 @@ COMPANY_NAME=company_name_to_fetch_news_for
 * **TWILIO\_AUTH\_TOKEN**: Your Auth Token from Twilio.
 * **VIRTUAL\_TWILIO\_NUMBER**: Your Twilio virtual phone number from which messages will be sent.
 * **VERIFIED\_PHONE\_NUMBER**: Your verified phone number to receive the SMS alerts.
-* **STOCK\_NAME**: The stock symbol you want to track (e.g., "TSLA" for Tesla).
-* **COMPANY\_NAME**: The name of the company for which you want to fetch news (e.g., "Tesla Inc").
+* **STOCK\_NAME**: The stock symbol you want to track.
+* **COMPANY\_NAME**: The name of the company for which you want to fetch news.
 
 ### **2. Install Dependencies**
 
