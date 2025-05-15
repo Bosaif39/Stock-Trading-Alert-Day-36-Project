@@ -5,14 +5,14 @@ from twilio.rest import Client
 load_dotenv()
 
 # Environment variables from the .env file
-STOCK_API_KEY = os.getenv("STOCK_API_KEY")
-NEWS_API_KEY = os.getenv("NEWS_API_KEY")
-TWILIO_SID = os.getenv("TWILIO_SID")
-TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
-VIRTUAL_TWILIO_NUMBER = os.getenv("VIRTUAL_TWILIO_NUMBER")
-VERIFIED_PHONE_NUMBER = os.getenv("VERIFIED_PHONE_NUMBER")
-STOCK_NAME = os.getenv("STOCK_NAME")
-COMPANY_NAME = os.getenv("COMPANY_NAME")
+STOCK_API_KEY = os.environ.get("STOCK_API_KEY")
+NEWS_API_KEY = os.environ.get("NEWS_API_KEY")
+TWILIO_SID = os.environ.get("TWILIO_SID")
+TWILIO_AUTH_TOKEN = os.environ.get("TWILIO_AUTH_TOKEN")
+VIRTUAL_TWILIO_NUMBER = os.environ.get("VIRTUAL_TWILIO_NUMBER")
+VERIFIED_PHONE_NUMBER = os.environ.get("VERIFIED_PHONE_NUMBER")
+STOCK_NAME = os.environ.get("STOCK_NAME")
+COMPANY_NAME = os.environ.get("COMPANY_NAME")
 
 # Fetch yesterday's closing stock price using the Alpha Vantage API.
 stock_params = {
