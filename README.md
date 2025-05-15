@@ -59,7 +59,6 @@ You need to install some Python libraries to run the script.
 ```bash
 pip install requests
 pip install twilio
-pip install python-dotenv
 ```
 
 * **requests**: This library helps you make HTTP requests to external APIs.
@@ -160,7 +159,6 @@ If everything is configured correctly, you'll receive SMS alerts if the stock pr
 * **Python 3.x**: This script requires Python 3 or later.
 * **Requests**: Install with `pip install requests`.
 * **Twilio**: Install with `pip install twilio`.
-* **python-dotenv**: Install with `pip install python-dotenv`.
 
 ## **Troubleshooting**
 
