@@ -1,9 +1,6 @@
 import requests
 from twilio.rest import Client
 
-# Load environment variables from the .env file
-load_dotenv()
-
 # Environment variables from the .env file
 STOCK_API_KEY = os.environ.get("STOCK_API_KEY")
 NEWS_API_KEY = os.environ.get("NEWS_API_KEY")
