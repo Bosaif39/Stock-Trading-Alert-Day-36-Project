@@ -1,23 +1,18 @@
 import requests
 from twilio.rest import Client
 
-# Your Twilio virtual phone number and the verified phone number
-VIRTUAL_TWILIO_NUMBER = "your virtual twilio number"
-VERIFIED_NUMBER = "your own phone number verified with Twilio"
+# Load environment variables from the .env file
+load_dotenv()
 
-# The stock symbol and the company name you're tracking
-STOCK_NAME = "MSFT"
-COMPANY_NAME = "Microsoft"
-
-# Alpha Vantage and News API endpoints for stock and news data
-STOCK_ENDPOINT = "https://www.alphavantage.co/query"
-NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
-
-# API keys for Alpha Vantage and News API, as well as Twilio credentials
-STOCK_API_KEY = "YOUR OWN API KEY FROM ALPHAVANTAGE"
-NEWS_API_KEY = "YOUR OWN API KEY FROM NEWSAPI"
-TWILIO_SID = "YOUR TWILIO ACCOUNT SID"
-TWILIO_AUTH_TOKEN = "YOUR TWILIO AUTH TOKEN"
+# Environment variables from the .env file
+STOCK_API_KEY = os.getenv("STOCK_API_KEY")
+NEWS_API_KEY = os.getenv("NEWS_API_KEY")
+TWILIO_SID = os.getenv("TWILIO_SID")
+TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
+VIRTUAL_TWILIO_NUMBER = os.getenv("VIRTUAL_TWILIO_NUMBER")
+VERIFIED_PHONE_NUMBER = os.getenv("VERIFIED_PHONE_NUMBER")
+STOCK_NAME = os.getenv("STOCK_NAME")
+COMPANY_NAME = os.getenv("COMPANY_NAME")
 
 # Fetch yesterday's closing stock price using the Alpha Vantage API.
 stock_params = {
